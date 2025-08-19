@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1642.0" prefWidth="1085.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.knowledgekitchen.MenuControl">
+   <content>
+      <Pane prefHeight="1634.0" prefWidth="1083.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button fx:id="historyBtn" layoutX="755.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="History" textFill="BLACK">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="homeBtn" layoutX="3.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Home" textFill="BLACK">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Label layoutX="58.0" layoutY="13.0" text="• Capella" textFill="#1e1d1d">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Button fx:id="bookingBtn" layoutX="822.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Booking" textFill="BLACK">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Button fx:id="galleryBtn" layoutX="893.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Gallery" textFill="BLACK">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Button fx:id="menuBtn" layoutX="958.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Menu" textFill="BLACK">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Button fx:id="contactBtn" layoutX="1012.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Contact" textFill="BLACK">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+            <Pane layoutX="-4.0" layoutY="47.0" prefHeight="1600.0" prefWidth="1120.0" style="-fx-background-color: #2b2b2b;">
+               <children>
+                  <Label layoutX="143.0" layoutY="108.0" text="MENU" textFill="WHITE">
+                     <font>
+                        <Font name="Apple Color Emoji" size="54.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="763.0" layoutY="121.0" text="Coffee Time" textFill="#d6b264">
+                     <font>
+                        <Font name="Bangla MN Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="602.0" layoutY="173.0" prefHeight="4.0" prefWidth="458.0" style="-fx-background-color: #ffffff;" />
+                  <Pane layoutX="114.0" layoutY="310.0" prefHeight="354.0" prefWidth="2.0" style="-fx-background-color: #ffffff;" />
+                  <Label layoutX="707.0" layoutY="289.0" text="D R I N K S" textFill="WHITE">
+                     <font>
+                        <Font name="Apple Color Emoji" size="33.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="38.0" layoutY="383.0" prefHeight="2.0" prefWidth="991.0" style="-fx-background-color: #ffffff;" />
+                  <Label layoutX="144.0" layoutY="330.0" text="COFFEE" textFill="#d6b264">
+                     <font>
+                        <Font name="Bangla MN Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="114.0" layoutY="743.0" prefHeight="354.0" prefWidth="2.0" style="-fx-background-color: #ffffff;" />
+                  <Pane layoutX="114.0" layoutY="1179.0" prefHeight="354.0" prefWidth="2.0" style="-fx-background-color: #ffffff;" />
+                  <Pane layoutX="38.0" layoutY="816.0" prefHeight="2.0" prefWidth="991.0" style="-fx-background-color: #ffffff;" />
+                  <Pane layoutX="38.0" layoutY="1252.0" prefHeight="2.0" prefWidth="991.0" style="-fx-background-color: #ffffff;" />
+                  <Label layoutX="144.0" layoutY="763.0" text="NON-COFFEE" textFill="#d6b264">
+                     <font>
+                        <Font name="Bangla MN Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="144.0" layoutY="1199.0" text="DESSERTS" textFill="#d6b264">
+                     <font>
+                        <Font name="Bangla MN Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="151.0" layoutY="407.0" text="Espresso                    " textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="447.0" prefHeight="39.0" prefWidth="188.0" text="Double Espresso " textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="487.0" prefHeight="39.0" prefWidth="57.0" text="Latte" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="527.0" prefHeight="39.0" prefWidth="110.0" text="Americano" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="567.0" prefHeight="39.0" prefWidth="124.0" text="Cappuccino" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="607.0" prefHeight="39.0" prefWidth="124.0" text="Flat White" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="407.0" prefHeight="39.0" prefWidth="57.0" text="\$ 5.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="447.0" prefHeight="39.0" prefWidth="57.0" text="\$ 5.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="487.0" prefHeight="39.0" prefWidth="57.0" text="\$ 5.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="527.0" prefHeight="39.0" prefWidth="57.0" text="\$ 7.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="567.0" prefHeight="39.0" prefWidth="62.0" text="\$ 10.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="607.0" prefHeight="39.0" prefWidth="57.0" text="\$ 9.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="840.0" prefHeight="39.0" prefWidth="110.0" text="MilkShake" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="890.0" prefHeight="39.0" prefWidth="110.0" text="Smoothie" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="940.0" prefHeight="39.0" prefWidth="142.0" text="Hot Chokolate" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="990.0" prefHeight="39.0" prefWidth="142.0" text="Lemonade" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="1040.0" prefHeight="39.0" prefWidth="176.0" text="Vanilla MilkShake" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="840.0" prefHeight="39.0" prefWidth="57.0" text="\$ 5.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="890.0" prefHeight="39.0" prefWidth="57.0" text="\$ 5.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="940.0" prefHeight="39.0" prefWidth="57.0" text="\$ 6.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="990.0" prefHeight="39.0" prefWidth="57.0" text="\$ 7.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="1040.0" prefHeight="39.0" prefWidth="57.0" text="\$ 8.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="1276.0" prefHeight="39.0" prefWidth="184.0" text="Strawberry Waffle" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="775.0" layoutY="1174.0" text="F O O D" textFill="WHITE">
+                     <font>
+                        <Font name="Apple Color Emoji" size="33.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="1326.0" prefHeight="39.0" prefWidth="184.0" text="Croissant" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="1376.0" prefHeight="39.0" prefWidth="184.0" text="Chocolate Muffin" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="1426.0" prefHeight="39.0" prefWidth="184.0" text="Lemon Pie" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="1476.0" prefHeight="39.0" prefWidth="184.0" text="Chocolate Waffle" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="1276.0" prefHeight="39.0" prefWidth="57.0" text="\$ 5.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="1326.0" prefHeight="39.0" prefWidth="57.0" text="\$ 5.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="1376.0" prefHeight="39.0" prefWidth="63.0" text="\$ 10.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="1426.0" prefHeight="39.0" prefWidth="57.0" text="\$ 8.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="416.0" layoutY="1476.0" prefHeight="39.0" prefWidth="57.0" text="\$ 7.00" textFill="WHITE">
+                     <font>
+                        <Font name="Bangla MN Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="266.0" fitWidth="510.0" layoutX="650.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menu_coffee_m.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="266.0" fitWidth="510.0" layoutX="676.0" layoutY="840.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menu_non_coffee.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="266.0" fitWidth="510.0" layoutX="684.0" layoutY="1270.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../menu_dessert.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+         </children>
+      </Pane>
+   </content>
+</ScrollPane>
